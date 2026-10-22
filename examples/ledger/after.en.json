@@ -1,0 +1,54 @@
+{
+  "auth": {
+    "title": "Sign in",
+    "subtitle": "",
+    "email_label": "Email",
+    "password_label": "Password",
+    "password_error": "Use at least 8 characters",
+    "email_error": "Enter an email like name@example.com",
+    "cta": "Sign in",
+    "forgot": "Forgot password",
+    "signup_link": "Create account",
+    "generic_error": "Couldn't sign in. Check your connection and try again."
+  },
+  "home": {
+    "title": "Expenses",
+    "empty": "No expenses yet.",
+    "add": "Add expense",
+    "sync_status": "Synced",
+    "sync_error": "Couldn't sync: no connection. Your edits are saved on this phone and will sync when you're back online."
+  },
+  "expense": {
+    "delete_title": "Delete this expense?",
+    "delete_body": "€42.50 at Lidl, 14 Mar. This can't be undone.",
+    "delete_confirm": "Delete expense",
+    "delete_cancel": "Keep expense",
+    "saved": "Saved",
+    "amount_hint": "Amount",
+    "category_tooltip": "Groups this expense in reports and budgets.",
+    "receipt_error": "Couldn't upload receipt.jpg: it's 14 MB and the limit is 10 MB. Choose a smaller photo."
+  },
+  "settings": {
+    "title": "Settings",
+    "notify": "Notify me about new expenses",
+    "notify_only": "Notify me only about expenses over €100",
+    "export": "Download as CSV",
+    "download_csv": "Download as CSV",
+    "signout": "Sign out",
+    "signout_confirm": "Sign out of Ledger on this phone?",
+    "delete_account": "Delete account",
+    "delete_account_body": "Deletes your 312 expenses and 4 budgets from all devices. This can't be undone."
+  },
+  "onboarding": {
+    "s1_title": "See where your money goes",
+    "s1_body": "Connect a bank and Ledger sorts each payment into a category. Set a budget and it shows what's left.",
+    "s2_title": "Connect a bank",
+    "s3_title": "Set a budget",
+    "s4_title": "Track spending",
+    "cta": "Connect a bank"
+  },
+  "push": {
+    "budget_warn": "Groceries: €380 of €400 spent, 9 days left",
+    "renewal": "Renews Sat 19 Feb, €4.99"
+  }
+}

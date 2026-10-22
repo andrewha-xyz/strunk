@@ -1,0 +1,13 @@
+{
+  "name": "strunk",
+  "description": "UX writing on The Elements of Style: Strunk's composition rules and White's reminders mapped to buttons, errors, empty states, dialogs, toasts, tooltips, labels, onboarding and notifications; write, review and audit workflows; a deterministic copy linter for strings files.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Andrey Ilinskiy",
+    "url": "https://github.com/andrewha-xyz"
+  },
+  "homepage": "https://github.com/andrewha-xyz/strunk#readme",
+  "repository": "https://github.com/andrewha-xyz/strunk",
+  "license": "MIT",
+  "keywords": ["ux-writing", "microcopy", "strunk", "elements-of-style", "content-design", "error-messages", "review", "lint"]
+}

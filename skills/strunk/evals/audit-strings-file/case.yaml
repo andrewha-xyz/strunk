@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: audit-strings-file
+expected_outcome: |
+  review.md lists findings per key with the reason and a rewrite, ordered by what blocks the user; en.fixed.json keeps all 32 keys and is valid JSON. The fixed strings: no "Are you sure?" (the question names the note), no "successfully", no "Oops"/emoji/exclamation marks, validation errors turned into instructions (Use at least 8 characters), one term for one thing (sign in not log in; delete not remove; notes.create and onboarding use "note"), empty states without "There are no", dialog buttons that answer the question (Delete note / Keep note), parallel onboarding step titles, one case convention. A terminology table for translators.
+context:
+  scaffold_script: place-files.sh

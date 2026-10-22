@@ -1,0 +1,108 @@
+
+auth.title: 'Welcome Back!'
+  [note] rule V.7: '!'  (an exclamation mark is a claim of excitement)
+
+auth.subtitle: 'Please log in to continue to your account'
+  [note] rule 13: 'Please'  (delete from instructions; keep when asking a favour the user may refuse)
+
+auth.email_label: 'Please enter your e-mail address'
+  [note] rule 13: 'Please'  (delete from instructions; keep when asking a favour the user may refuse)
+
+auth.password_error: 'Password is not long enough'
+  [warn] rule 11: 'is not'  (say what to do instead)
+
+auth.email_error: 'Invalid email'
+  [warn] rule 11: 'Invalid'  (say what to enter)
+
+auth.forgot: 'Click here if you forgot your password'
+  [warn] rule 12: 'Click here'  (make the destination the link text)
+
+auth.signup_link: "Don't have an account? Register here"
+  [warn] rule 11: "Don't"  (say what to do instead)
+
+auth.generic_error: 'Oops! Something went wrong. Please try again later.'
+  [note] rule 13: 'Please'  (delete from instructions; keep when asking a favour the user may refuse)
+  [warn] rule 12: 'Something went wrong'  (say what went wrong, or what to do)
+  [warn] rule 11: 'wrong'  (say what to enter)
+  [note] rule V.7: '!'  (an exclamation mark is a claim of excitement)
+  [warn] rule V.9: 'Oops'  (the fact and the remedy, in a plain voice)
+
+home.empty: 'There are currently no expenses in your list. Why not add one?'
+  [warn] rule 13: 'currently'  (delete; the present tense says it)
+  [warn] rule 10: 'There are'  (make the thing the subject)
+  [note] rule 11: 'no'  (a negative fact is fine; follow it with the remedy)
+
+home.sync_status: 'Your data has been successfully synced!'
+  [warn] rule 13: 'successfully'  (delete; a past-tense verb already succeeded)
+  [note] rule V.7: '!'  (an exclamation mark is a claim of excitement)
+  [note] rule 10: 'been successfully synced'  (passive stating a result; fine when the object is the topic ('Your edits are saved'))
+
+home.sync_error: 'Sync could not be completed at this time due to a network error.'
+  [warn] rule 13: 'at this time' -> now  (or delete)
+  [warn] rule 10: 'could not be'  (name the actor)
+  [warn] rule 10: 'be completed'  (passive hides the actor; say who did it, or make the object the subject)
+
+expense.delete_title: 'Are you sure?'
+  [warn] rule 12: 'Are you sure?'  (ask the question with its object: 'Delete 3 photos?')
+
+expense.delete_body: 'This action will permanently delete the selected item and cannot be undone.'
+  [note] rule 12: 'item'  (the real noun if the product knows it)
+
+expense.delete_confirm: 'OK'
+  [note] rule 15: 'OK'  (buttons answer the question in its own words: Delete / Keep)
+
+expense.delete_cancel: 'Cancel'
+  [note] rule 15: 'Cancel'  (buttons answer the question in its own words: Delete / Keep)
+
+expense.saved: 'Expense saved successfully'
+  [warn] rule 13: 'successfully'  (delete; a past-tense verb already succeeded)
+
+expense.amount_hint: 'Please enter the amount in order to continue'
+  [warn] rule 13: 'in order to' -> to
+  [note] rule 13: 'Please'  (delete from instructions; keep when asking a favour the user may refuse)
+
+expense.receipt_error: "We're sorry, but we were unable to upload your receipt. The file might be too large."
+  [warn] rule 10: 'were unable to'  (name the actor: 'Couldn't save', 'Your bank declined the card')
+  [note] rule V.1: 'sorry'  (apologize only for harm the product caused, then say what it will do)
+
+settings.signout_confirm: 'Do you really want to sign out?'
+  [warn] rule V.8: 'really'  (delete, or a stronger word, or the number)
+
+settings.delete_account_body: "We're really sad to see you go 😢 Are you sure you want to proceed?"
+  [warn] rule 12: 'Are you sure'  (ask the question with its object: 'Delete 3 photos?')
+  [warn] rule V.8: 'really'  (delete, or a stronger word, or the number)
+  [warn] rule V.9: '😢'  (emoji in product copy is breeziness; the fact, in a plain voice)
+
+onboarding.s1_title: "Welcome to Ledger! We're thrilled to have you on board."
+  [note] rule V.7: '!'  (an exclamation mark is a claim of excitement)
+  [warn] rule V.1: "We're thrilled"  (the product's feelings are not the topic)
+
+onboarding.s1_body: 'Ledger is a powerful, intuitive tool that lets you easily and effortlessly track all of your expenses in just a few simple steps.'
+  [warn] rule 13: 'easily'  (delete; the user judges what is easy)
+  [note] rule 13: 'just'  (delete unless it means 'only' or 'a moment ago')
+  [warn] rule V.7: 'powerful'  (the specific fact, or nothing)
+  [warn] rule V.7: 'intuitive'  (the specific fact, or nothing)
+  [warn] rule V.7: 'effortlessly'  (the specific fact, or nothing)
+
+onboarding.s4_title: 'Step 3: Track!'
+  [note] rule V.7: '!'  (an exclamation mark is a claim of excitement)
+
+onboarding.cta: "Let's Go!"
+  [note] rule V.7: '!'  (an exclamation mark is a claim of excitement)
+
+push.budget_warn: 'Heads up! You have spent a very large portion of your monthly budget already.'
+  [note] rule V.7: '!'  (an exclamation mark is a claim of excitement)
+  [warn] rule V.8: 'very'  (delete, or a stronger word, or the number)
+
+push.renewal: "Reminder: Don't forget that your subscription will renew soon."
+  [warn] rule 11: "Don't"  (say what to do instead)
+
+*
+  [warn] rule 4th.12: 'email'  (one word for one thing: e-mail in auth.email_label; email in auth.email_error)
+  [warn] rule 4th.12: 'delete'  (one word for one thing: delete in expense.delete_body; remove in settings.delete_account)
+  [warn] rule 4th.12: 'settings'  (one word for one thing: settings in settings.title; preferences in settings.title)
+  [warn] rule 4th.12: 'download'  (one word for one thing: export in settings.export; download in settings.download_csv)
+  [warn] rule 4th.12: 'sign out'  (one word for one thing: log out in settings.signout; sign out in settings.signout_confirm)
+  [note] rule V.10: 'case'  (Title Case in home.add; sentence case in auth.subtitle, auth.email_label, auth.password_error, auth.email_error. Choose one.)
+
+40 strings, 245 words, mean 6.1, longest onboarding.s1_body (23 words); 33 warn, 19 note

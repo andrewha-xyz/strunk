@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: payment-declined-errors
+expected_outcome: |
+  A markdown document with five checkout errors (declined, insufficient funds, timeout, 3-D Secure failed, expired card), each with a title, a body, and buttons shown in their dialog or inline element, plus a valid en.json with the same strings. Titles lead with the failed outcome; bodies name the actor (the bank, the network) and end with what to do; buttons are verbs naming the result (Try again, Use another card), not OK/Cancel. No "Oops", "Sorry", "Something went wrong", "please", "successfully"; no emoji; no exclamation marks.

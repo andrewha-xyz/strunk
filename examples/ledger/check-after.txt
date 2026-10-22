@@ -1,0 +1,12 @@
+
+home.empty: 'No expenses yet.'
+  [note] rule 11: 'No'  (a negative fact is fine; follow it with the remedy)
+
+home.sync_error: "Couldn't sync: no connection. Your edits are saved on this phone and will sync when you're back online."
+  [note] rule 11: 'no'  (a negative fact is fine; follow it with the remedy)
+  [note] rule 10: 'are saved'  (passive stating a result; fine when the object is the topic ('Your edits are saved'))
+
+*
+  [note] rule V.10: 'case'  (Title Case in push.renewal; sentence case in auth.password_error, auth.email_error, auth.forgot, auth.signup_link. Choose one.)
+
+40 strings, 187 words, mean 4.7, longest onboarding.s1_body (19 words); 0 warn, 4 note

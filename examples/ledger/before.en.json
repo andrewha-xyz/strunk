@@ -1,0 +1,54 @@
+{
+  "auth": {
+    "title": "Welcome Back!",
+    "subtitle": "Please log in to continue to your account",
+    "email_label": "Please enter your e-mail address",
+    "password_label": "Password",
+    "password_error": "Password is not long enough",
+    "email_error": "Invalid email",
+    "cta": "Submit",
+    "forgot": "Click here if you forgot your password",
+    "signup_link": "Don't have an account? Register here",
+    "generic_error": "Oops! Something went wrong. Please try again later."
+  },
+  "home": {
+    "title": "Your Expenses",
+    "empty": "There are currently no expenses in your list. Why not add one?",
+    "add": "Add New Expense",
+    "sync_status": "Your data has been successfully synced!",
+    "sync_error": "Sync could not be completed at this time due to a network error."
+  },
+  "expense": {
+    "delete_title": "Are you sure?",
+    "delete_body": "This action will permanently delete the selected item and cannot be undone.",
+    "delete_confirm": "OK",
+    "delete_cancel": "Cancel",
+    "saved": "Expense saved successfully",
+    "amount_hint": "Please enter the amount in order to continue",
+    "category_tooltip": "Category: select the category for this expense.",
+    "receipt_error": "We're sorry, but we were unable to upload your receipt. The file might be too large."
+  },
+  "settings": {
+    "title": "Settings & Preferences",
+    "notify": "Enable the notification feature",
+    "notify_only": "Only notify me about large expenses",
+    "export": "Export",
+    "download_csv": "Download your data",
+    "signout": "Log Out",
+    "signout_confirm": "Do you really want to sign out?",
+    "delete_account": "Remove account",
+    "delete_account_body": "We're really sad to see you go 😢 Are you sure you want to proceed?"
+  },
+  "onboarding": {
+    "s1_title": "Welcome to Ledger! We're thrilled to have you on board.",
+    "s1_body": "Ledger is a powerful, intuitive tool that lets you easily and effortlessly track all of your expenses in just a few simple steps.",
+    "s2_title": "Step 1: Connecting your bank",
+    "s3_title": "Step 2: You set a budget",
+    "s4_title": "Step 3: Track!",
+    "cta": "Let's Go!"
+  },
+  "push": {
+    "budget_warn": "Heads up! You have spent a very large portion of your monthly budget already.",
+    "renewal": "Reminder: Don't forget that your subscription will renew soon."
+  }
+}

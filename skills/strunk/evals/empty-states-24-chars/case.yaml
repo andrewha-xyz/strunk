@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: empty-states-24-chars
+expected_outcome: |
+  copy.md with three empty states and three onboarding screens, each a title (24 characters or fewer), a body (80 or fewer), and a button (16 or fewer), with the counts printed and correct. Titles lead with the fact ("No notes yet"), bodies say what this place holds and the action; the no-search-results state does not repeat the query; buttons are verbs naming the result ("Create note"); onboarding titles are parallel and make no claims ("powerful", "easy"); only the terms note, tag, notebook; sentence case; no "There are no", no exclamation marks, no "Oops", no "simply/just/easily".

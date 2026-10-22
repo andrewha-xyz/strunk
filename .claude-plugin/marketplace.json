@@ -1,0 +1,20 @@
+{
+  "name": "andrewha-xyz",
+  "owner": {
+    "name": "Andrey Ilinskiy",
+    "url": "https://github.com/andrewha-xyz"
+  },
+  "metadata": {
+    "description": "Skills by Andrey Ilinskiy"
+  },
+  "plugins": [
+    {
+      "name": "strunk",
+      "source": "./",
+      "description": "UX writing on The Elements of Style: rules mapped to interface elements, write/review/audit workflows, a deterministic copy linter.",
+      "version": "0.1.0",
+      "category": "design",
+      "keywords": ["ux-writing", "microcopy", "strunk", "elements-of-style", "lint"]
+    }
+  ]
+}
